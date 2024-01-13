@@ -1,0 +1,31 @@
+Python Sinov Vazifasi: Onlayn Do'kon Tizimi
+ 
+Vazifa
+Sizdan onlayn do'kon tizimini ishlab chiqish so'raladi. Bu tizim mijozlarga turli xil mahsulotlarni qidirish, tanlash va xarid qilish imkoniyatini taqdim etishi kerak.
+ 
+Asosiy Talablar:
+1. Mahsulotlar Ro'yxati: Tizimda har bir mahsulot uchun quyidagi ma'lumotlar saqlanishi kerak: mahsulot nomi, tavsifi, narxi va mavjudligi.
+ 
+2. Qidiruv Funksiyasi: Foydalanuvchilar mahsulot nomi, turi yoki narxi bo'yicha mahsulotlarni qidirishlari mumkin.
+ 
+3. Savat Funksiyasi: Foydalanuvchilar tanlagan mahsulotlarni savatga qo'shishlari va keyinroq xarid qilishlari mumkin.
+                                                                                                                                                                                                                                                                                                                
+4. Buyurtma Jarayoni: Savatdagi mahsulotlar uchun buyurtma berish va uni boshqarish jarayoni.
+ 
+5. Ma'lumotlar Bazasi: Mahsulotlar, foydalanuvchilar va buyurtmalar haqidagi ma'lumotlarni saqlash uchun ma'lumotlar bazasini yaratish (masalan, SQLite yoki PostgreSQL).
+ 
+6. Foydalanuvchi Interfeysi: Foydalanuvchilar uchun oddiy va intuitiv veb interfeys yaratish (Flask yoki Django kabi Python veb frameworklardan foydalanish mumkin).
+ 
+Qo'shimcha Talablar (ixtiyoriy):
+● Foydalanuvchilarning hisob qaydnomalarini boshqarish.
+● Mahsulotlar ro'yxatini admin interfeysi orqali boshqarish.
+● To'lov tizimi integratsiyasi (masalan, Stripe yoki PayPal).
+ 
+Baholash Mezonlari:
+● Kodning tozaligi va tushunarli bo'lishi.
+● OOP prinsiplariga rioya etilishi.
+● Ma'lumotlar bazasi bilan ishlash samaradorligi.
+● Veb interfeysining foydalanuvchiga qulayligi.
+ 
+Muddat:
+● Ushbu vazifani bajarish uchun 5 kunvaqt beriladi.
