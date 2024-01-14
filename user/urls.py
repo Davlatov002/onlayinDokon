@@ -17,4 +17,7 @@ urlpatterns = [
     path('costomer-get/',views.costomer_get, name='costomer-get' ),
     path('costomer-get-id/',views.costomer_get_id, name='costomer-get-id' ),
 
+    # Order
+    path("orderrocess/", views.order_create, name="orderrocess"),
+
 ]

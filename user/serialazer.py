@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from .models import Costomer, Basket
+from .models import Costomer, Basket, OrderProcess
 
 class BaskerSerialazer(serializers.ModelSerializer):
     class Meta:
@@ -35,3 +35,12 @@ class UpdateCostomerSerializer(serializers.ModelSerializer):
         instance.email = validated_data.get("email", instance.email)
 
 
+class OrderSerialazer(serializers.ModelSerializer):
+    class Meta:
+        model = OrderProcess
+        fields = "__all__"
+
+class CrOrderSerialazer(serializers.ModelSerializer):
+    class Meta:
+        model = OrderProcess
+        fields = ("basket_id",)
