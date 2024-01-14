@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-l%$3j62t#5*by+mpm%ztexq$6b8$htaviy^*((fyv$d5mx^(*j
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -45,7 +45,7 @@ INSTALLED_APPS = [
     'drf_yasg',
 
     'paypal.standard',
-    
+
 ]
 
 REST_FRAMEWORK = {
